@@ -4,14 +4,14 @@
     {
       "id": "server1",
       "name": "Server 1",
-      "movie": "https://server1.com/embed/movie/{id}?color=ffa500&autoPlay=true",
-      "tv": "https://server1.com/embed/tv/{id}/{season}/{episode}"
+      "movie": "https://player.videasy.net/movie/${id}?autoplay=true&overlay=true&color=ffa500",
+      "tv": "https://player.videasy.net/tv/${id}/${season}/${episode}?nextEpisode=true&autoplayNextEpisode=true&episodeSelector=true&overlay=true&color=8B5CF6"
     },
     {
       "id": "server2",
       "name": "Server 2",
-      "movie": "https://server2.com/movie/{id}?autoplay=true&overlay=true&color=ffa500",
-      "tv": "https://server2.com/tv/{id}/{season}/{episode}"
+      "movie": "https://www.vidking.net/movie/{id}?autoplay=true&overlay=true&color=ffa500",
+      "tv": "https://www.vidking.net/embed/tv/${id}/${season}/${episode}?color=ffa500&autoPlay=true&nextEpisode=true&episodeSelector=true"
     }
   ]
 }
