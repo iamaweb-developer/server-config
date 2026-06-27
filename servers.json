@@ -1,0 +1,17 @@
+{
+  "defaultServer": "server1",
+  "servers": [
+    {
+      "id": "server1",
+      "name": "Server 1",
+      "movie": "https://server1.com/embed/movie/{id}?color=ffa500&autoPlay=true",
+      "tv": "https://server1.com/embed/tv/{id}/{season}/{episode}"
+    },
+    {
+      "id": "server2",
+      "name": "Server 2",
+      "movie": "https://server2.com/movie/{id}?autoplay=true&overlay=true&color=ffa500",
+      "tv": "https://server2.com/tv/{id}/{season}/{episode}"
+    }
+  ]
+}
